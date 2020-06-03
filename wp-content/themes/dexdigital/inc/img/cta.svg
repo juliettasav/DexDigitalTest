@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.84in" height="9.41in">
+    <defs>
+        <linearGradient id="prefix__a" x1="0%" x2="75.471%" y1="0%" y2="65.606%">
+            <stop offset="0%" stop-color="#9452BD"/>
+            <stop offset="100%" stop-color="#E16590"/>
+        </linearGradient>
+        <filter id="prefix__b" width="237" height="69" x="650" y="435.5" filterUnits="userSpaceOnUse">
+            <feOffset in="SourceAlpha"/>
+            <feGaussianBlur result="blurOut" stdDeviation="3.606"/>
+            <feFlood flood-color="#000" result="floodOut"/>
+            <feComposite in="floodOut" in2="blurOut" operator="atop"/>
+            <feComponentTransfer>
+                <feFuncA slope=".2" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <path fill="#7E4AD0" fill-rule="evenodd" d="M10 417.5h1120c5.523 0 10 4.477 10 10v87c0 5.523-4.477 10-10 10H10c-5.523 0-10-4.477-10-10v-87c0-5.523 4.477-10 10-10z"/>
+    <path fill="url(#prefix__a)" fill-rule="evenodd" d="M294 408.5s98.009 72.456 231-1h584s-58.936 122.565-89 151H444s-199.944-104.849-250-160l100 10z"/>
+    <path fill="none" fill-rule="evenodd" d="M576.5 255.5c64.341 0 116.5 52.159 116.5 116.5 0 64.341-52.159 116.5-116.5 116.5-64.341 0-116.5-52.159-116.5-116.5 0-64.341 52.159-116.5 116.5-116.5z"/>
+    <path fill="none" fill-rule="evenodd" d="M641.5 186.5C747.815 186.5 834 272.685 834 379s-86.185 192.5-192.5 192.5S449 485.315 449 379s86.185-192.5 192.5-192.5z"/>
+    <path fill="none" fill-rule="evenodd" d="M660 .5c186.672 0 338 151.328 338 338s-151.328 338-338 338-338-151.328-338-338S473.328.5 660 .5z"/>
+    <g filter="url(#prefix__b)">
+        <path fill="#FFF" fill-rule="evenodd" d="M682 447.5h172c11.046 0 20 8.954 20 20v4c0 11.046-8.954 20-20 20H682c-11.046 0-20-8.954-20-20v-4c0-11.046 8.954-20 20-20z"/>
+    </g>
+    
+</svg>
